@@ -2,8 +2,9 @@
   "name": "cupcake_template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sualehasif.github.io/sualeh",
+  "homepage": "http://maskbanao.com/sualeh/",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "node-sass-chokidar": "^1.4.0",
     "npm-run-all": "^4.1.5",
     "rc-slider": "^8.7.1",
@@ -17,6 +18,8 @@
     "react-typist": "^2.0.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/styles/themes/ -o public/styles/  --output-style compressed",
     "watch-css": "node-sass-chokidar src/styles/themes/ -o public/styles/ --watch --recursive --output-style compressed",
     "start-js": "react-scripts start",

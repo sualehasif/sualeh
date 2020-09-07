@@ -2,6 +2,7 @@
   "name": "cupcake_template",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sualehasif.github.io/sualeh",
   "dependencies": {
     "node-sass-chokidar": "^1.4.0",
     "npm-run-all": "^4.1.5",

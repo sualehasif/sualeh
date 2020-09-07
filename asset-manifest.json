@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/sualeh/static/js/main.d948978e.chunk.js",
+    "main.js.map": "/sualeh/static/js/main.d948978e.chunk.js.map",
+    "runtime-main.js": "/sualeh/static/js/runtime-main.05b1cba2.js",
+    "runtime-main.js.map": "/sualeh/static/js/runtime-main.05b1cba2.js.map",
+    "static/css/2.9ef65634.chunk.css": "/sualeh/static/css/2.9ef65634.chunk.css",
+    "static/js/2.9a74da1a.chunk.js": "/sualeh/static/js/2.9a74da1a.chunk.js",
+    "static/js/2.9a74da1a.chunk.js.map": "/sualeh/static/js/2.9a74da1a.chunk.js.map",
+    "index.html": "/sualeh/index.html",
+    "precache-manifest.115c2aaf2c2cf6011952cf4872603427.js": "/sualeh/precache-manifest.115c2aaf2c2cf6011952cf4872603427.js",
+    "service-worker.js": "/sualeh/service-worker.js",
+    "static/css/2.9ef65634.chunk.css.map": "/sualeh/static/css/2.9ef65634.chunk.css.map",
+    "static/js/2.9a74da1a.chunk.js.LICENSE.txt": "/sualeh/static/js/2.9a74da1a.chunk.js.LICENSE.txt",
+    "static/media/cupcake.jpg": "/sualeh/static/media/cupcake.e5baeb75.jpg",
+    "static/media/cupcake2.jpg": "/sualeh/static/media/cupcake2.72c8ac0a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05b1cba2.js",
+    "static/css/2.9ef65634.chunk.css",
+    "static/js/2.9a74da1a.chunk.js",
+    "static/js/main.d948978e.chunk.js"
+  ]
+}

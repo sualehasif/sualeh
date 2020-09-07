@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" style="display: none" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="referrer" content="no-referrer">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  
+  <title>Carol&#x27;s Blog</title>
+  
+  <meta property="og:title" content="Carol&#x27;s Blog" />
+  <meta name="twitter:title" content="Carol&#x27;s Blog" />
+
+  <meta name="description" content="Carol Chen&#x27;s blog about stuff she does or reads about or observes">
+  <meta property="og:description" content="Carol Chen&#x27;s blog about stuff she does or reads about or observes">
+  <meta name="twitter:description" content="Carol Chen&#x27;s blog about stuff she does or reads about or observes">
+
+  <meta property="og:site_name" content="Carol&#x27;s Blog" />
+  <meta property="og:url" content="&#x2F;blog" />
+
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+  <script type="text/javascript">
+  let fetchStyle = function() {
+    const themes = ['blue', 'cyan', 'deeppurple', 'green', 'indigo', 'lightblue', 'lightgreen', 'pink', 'purple', 'teal'];
+    const theme = "/blog/themes/" + themes[Math.floor(Math.random() * themes.length)] + ".css";
+
+    let link = document.createElement('link');
+    link.type = 'text/css';
+    link.rel = 'stylesheet';
+    link.onload = function() {
+      document.documentElement.setAttribute("style", "display:auto");
+     };
+    link.href = theme;
+
+    let headScript = document.querySelector('script');
+    headScript.parentNode.insertBefore(link, headScript);
+  }
+  fetchStyle()
+  </script>
+
+  <link rel='icon' type='image/x-icon' href="&#x2F;blog&#x2F;favicon.ico" />
+
+  <link rel="alternate" type="application/atom+xml" title="Carol&#x27;s Blog" href="&#x2F;blog&#x2F;atom.xml">
+
+  
+
+</head>
+<body>
+  <header class="header">
+    <h1 class="title-link"><a href="&#x2F;blog" class="p-title__link">Carol&#x27;s Blog</a></h1>
+    <div class="header-links">
+      <a href="https://🧁.me"> Personal Site </a> |
+      <a href="https://twitter.com/🧁"> Twitter </a> |
+      <a href="https://github.com/🧁"> Github </a> |
+      <a href="mailto:🧁"> Email </a>
+    </div>
+  </header>
+
+  <main id="main" class="main">
+    
+      <article class="c-article p-list-article">
+        
+<header>
+  <h2 class="article-title"><a href="&#x2F;blog&#x2F;sample&#x2F;">Sample Article</a></h2>
+  <p class="article-meta">
+    <time datetime="2020-05-12">
+      2020-05-12
+    </time>
+    
+    (1 min read)
+  </p>
+</header>
+
+        <div class="article-summary">
+          
+          
+&lt;p&gt;Banana cupcakes yum&lt;&#x2F;p&gt;
+
+
+        </div>
+      </article>
+    
+  </main>
+
+  <!-- Analytics should go here 🧁 -->
+  <link rel="stylesheet" href="&#x2F;blog&#x2F;css&#x2F;katex.min.css">
+  <script defer src="&#x2F;blog&#x2F;js&#x2F;katex.min.js"></script>
+  <script defer src="&#x2F;blog&#x2F;js&#x2F;mathtex-script-type.min.js"></script>
+  <script src="https://kit.fontawesome.com/fa2f0e5568.js" crossorigin="anonymous"></script>
+</body>
+</html>
+

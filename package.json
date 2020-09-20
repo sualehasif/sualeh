@@ -18,8 +18,6 @@
     "react-typist": "^2.0.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/styles/themes/ -o public/styles/  --output-style compressed",
     "watch-css": "node-sass-chokidar src/styles/themes/ -o public/styles/ --watch --recursive --output-style compressed",
     "start-js": "react-scripts start",

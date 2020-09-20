@@ -33,17 +33,17 @@ const Landing = () => (
             🧁 this site randomizes many elements per load! I did this because choosing things is hard.
           </p>
           <p>
-             🧁This is paragraph one. My favourite type of cupcake is red velvet because they look so pretty and also taste amazing.
+            My name is Sualeh.
           </p>
           <p>
-             🧁 This is paragraph two. I really like it when bakeries call it a "muffin" when it's full of frosting and sugar but I can feel less bad about it. You can add some dynamic code here, like my age is {new Date(Date.now() - new Date(2001, 11, 28).getTime()).getUTCFullYear() - 1970} years.
+            I am a junior at MIT, interested in number theory, computer science and theater. 
           </p>
         </Col>
         <Col xs={12} md={1} style={{ paddingTop: 50, fontSize: 40 }}>
-          <a href="{{🧁https://github.com/username}}" target="_blank" rel="noredirect no referrer"><Github /></a>
+          <a href="https://github.com/sualehasif" target="_blank" rel="noredirect no referrer"><Github /></a>
           <a href="{{🧁https://twitter.com/username}}" target="_blank" rel="noredirect no referrer"><Twitter /></a>
           <a href="{{🧁https://instagram.com/username}}/" target="_blank" rel="noredirect no referrer"><Instagram /></a>
-          <a href="{{🧁mailto:email@emailaddress.com}}" target="_blank" rel="nnoredirect no referrer"><Envelope /></a>
+          <a href="mailto:sualeh@mit.edu" target="_blank" rel="nnoredirect no referrer"><Envelope /></a>
         </Col>
       </Row>
     </section>
@@ -55,7 +55,7 @@ const Quote = () => {
   const quotes = [
     {
       quote: 'I love 🧁🧁🧁🧁',
-      author: 'A very smart women',
+      author: 'yeet',
     },
     {
       quote: 'mmmmmm 🧁',

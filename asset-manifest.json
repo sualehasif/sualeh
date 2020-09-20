@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/sualehasif.me/static/js/main.d948978e.chunk.js",
-    "main.js.map": "/sualehasif.me/static/js/main.d948978e.chunk.js.map",
-    "runtime-main.js": "/sualehasif.me/static/js/runtime-main.568fbdc9.js",
-    "runtime-main.js.map": "/sualehasif.me/static/js/runtime-main.568fbdc9.js.map",
-    "static/css/2.9ef65634.chunk.css": "/sualehasif.me/static/css/2.9ef65634.chunk.css",
-    "static/js/2.9a74da1a.chunk.js": "/sualehasif.me/static/js/2.9a74da1a.chunk.js",
-    "static/js/2.9a74da1a.chunk.js.map": "/sualehasif.me/static/js/2.9a74da1a.chunk.js.map",
-    "index.html": "/sualehasif.me/index.html",
-    "precache-manifest.9ffc90f8cd450a1adf10552c919caa4a.js": "/sualehasif.me/precache-manifest.9ffc90f8cd450a1adf10552c919caa4a.js",
-    "service-worker.js": "/sualehasif.me/service-worker.js",
-    "static/css/2.9ef65634.chunk.css.map": "/sualehasif.me/static/css/2.9ef65634.chunk.css.map",
-    "static/js/2.9a74da1a.chunk.js.LICENSE.txt": "/sualehasif.me/static/js/2.9a74da1a.chunk.js.LICENSE.txt",
-    "static/media/cupcake.jpg": "/sualehasif.me/static/media/cupcake.e5baeb75.jpg",
-    "static/media/cupcake2.jpg": "/sualehasif.me/static/media/cupcake2.72c8ac0a.jpg"
+    "main.js": "/static/js/main.d948978e.chunk.js",
+    "main.js.map": "/static/js/main.d948978e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a6427217.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a6427217.js.map",
+    "static/css/2.9ef65634.chunk.css": "/static/css/2.9ef65634.chunk.css",
+    "static/js/2.9a74da1a.chunk.js": "/static/js/2.9a74da1a.chunk.js",
+    "static/js/2.9a74da1a.chunk.js.map": "/static/js/2.9a74da1a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4b7bc9971966b04c754206073517aa56.js": "/precache-manifest.4b7bc9971966b04c754206073517aa56.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.9ef65634.chunk.css.map": "/static/css/2.9ef65634.chunk.css.map",
+    "static/js/2.9a74da1a.chunk.js.LICENSE.txt": "/static/js/2.9a74da1a.chunk.js.LICENSE.txt",
+    "static/media/cupcake.jpg": "/static/media/cupcake.e5baeb75.jpg",
+    "static/media/cupcake2.jpg": "/static/media/cupcake2.72c8ac0a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.568fbdc9.js",
+    "static/js/runtime-main.a6427217.js",
     "static/css/2.9ef65634.chunk.css",
     "static/js/2.9a74da1a.chunk.js",
     "static/js/main.d948978e.chunk.js"

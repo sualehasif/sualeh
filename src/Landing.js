@@ -16,7 +16,7 @@ const Landing = () => (
   <main>
     <section className="panels" id="home">
       <div className="jumbotron">
-        <h2 className="section-heading">Hi!, I'm Sualeh</h2>
+        <h2 className="section-heading">Hi! I'm Sualeh</h2>
         <Quote />
       </div>
     </section>
@@ -32,8 +32,7 @@ const Landing = () => (
             Hello, hello hello! I'm Sualeh. I am a junior at MIT studying computer science, mathematics and theater. I am broadly interested in computational number theory, machine learning, performance engineering, arithmetic geometry and algorithms.
           </p>
           <p>
-            I love theater and performance art. 
-            In my free time, I 
+            I love theater and performance art. I am passionate about many vaguely artisitc things and particularly enjoy shakesepare, lots of classical literature, and Englsih and Urdu poetry.
           </p>
 
           <p style={{ fontSize: 14}}>
@@ -53,19 +52,39 @@ const Landing = () => (
   </main>
 );
 
+var test_empty = (cstr) => {
+  if (cstr != ""){
+    return(
+      <br/>
+    )
+  }
+}
+
 const Quote = () => {
   const quotes = [
     {
-      quote: 'I love 🧁🧁🧁🧁',
-      author: 'yeet',
+      line1: "\"Life’s but a walking shadow, a poor player",
+      line2: 'That struts and frets his hour upon the stage,',
+      line3: 'And then is heard no more. It is a tale',
+      line4: 'Told by an idiot, full of sound and fury,', 
+      line5: 'Signifying nothing.\"',
+      author: 'Macbeth',
     },
     {
-      quote: 'mmmmmm 🧁',
-      author: 'yuuuuuum',
+      line1: '“I wish it need not have happened in my time,” said Frodo.',
+      line2: 'So do I,” said Gandalf, “and so do all who live to see such times.', 
+      line3: 'But that is not for them to decide. ',
+      line4: 'All we have to decide is what to do ',
+      line5: 'with the time that is given us.”',
+      author: 'Lord of the Rings',
     },
     {
-      quote: '🧁🧁🧁🧁🧁🧁🧁🧁🧁🧁🧁🧁😮',
-      author: 'someone eating a delicious cupcake',
+      line1: '\"I am a man of fortune and I must seek my fortune\"',
+      line2: '',
+      line3: '',
+      line4: '', 
+      line5: '',
+      author: 'Henry Avery',
     },
   ];
 
@@ -73,7 +92,11 @@ const Quote = () => {
   return (
     <div className="quote">
       <p className="quote-content">
-        &#34;{quote.quote}&#34;
+        {quote.line1}{test_empty(quote.line1)}
+        {quote.line2}{test_empty(quote.line2)}
+        {quote.line3}{test_empty(quote.line3)}
+        {quote.line4}{test_empty(quote.line4)}
+        {quote.line5}
       </p>
         <i>{quote.author}</i>
     </div>

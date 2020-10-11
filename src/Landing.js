@@ -2,8 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 import Github from 'react-icons/lib/fa/github';
-import Instagram from 'react-icons/lib/fa/instagram';
-import Twitter from 'react-icons/lib/fa/twitter';
+// import { ImPen } from 'react-icons/im';
 import Envelope from 'react-icons/lib/fa/envelope';
 
 import cupcake1 from './img/cupcake.jpg';
@@ -17,7 +16,7 @@ const Landing = () => (
   <main>
     <section className="panels" id="home">
       <div className="jumbotron">
-        <h2 className="section-heading">🧁Hi! I like Cupcakes</h2>
+        <h2 className="section-heading">Hi!, I'm Sualeh</h2>
         <Quote />
       </div>
     </section>
@@ -29,20 +28,23 @@ const Landing = () => (
         <Col xs={12} md={6} style={{ paddingLeft: 50, paddingRight: 50 }}>
           <h2 className="section-heading">ABOUT ME</h2>
           <hr />
+          <p>
+            Hello, hello hello! I'm Sualeh. I am a junior at MIT studying computer science, mathematics and theater. I am broadly interested in computational number theory, machine learning, performance engineering, arithmetic geometry and algorithms.
+          </p>
+          <p>
+            I love theater and performance art. 
+            In my free time, I 
+          </p>
+
           <p style={{ fontSize: 14}}>
-            🧁 this site randomizes many elements per load! I did this because choosing things is hard.
-          </p>
-          <p>
-            My name is Sualeh.
-          </p>
-          <p>
-            I am a junior at MIT, interested in number theory, computer science and theater. 
+            This site randomizes many elements per load! Thanks to Carol Chen for the theme.
           </p>
         </Col>
         <Col xs={12} md={1} style={{ paddingTop: 50, fontSize: 40 }}>
           <a href="https://github.com/sualehasif" target="_blank" rel="noredirect no referrer"><Github /></a>
-          <a href="{{🧁https://twitter.com/username}}" target="_blank" rel="noredirect no referrer"><Twitter /></a>
-          <a href="{{🧁https://instagram.com/username}}/" target="_blank" rel="noredirect no referrer"><Instagram /></a>
+          {/* arxiv */}
+          {/* blog */}
+          {/* <a href="/blog" target="_blank" rel="noredirect no referrer"><ImPen /></a> */}
           <a href="mailto:sualeh@mit.edu" target="_blank" rel="nnoredirect no referrer"><Envelope /></a>
         </Col>
       </Row>

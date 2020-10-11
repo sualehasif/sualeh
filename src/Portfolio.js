@@ -21,7 +21,7 @@ class Portfolio extends Component {
         <section id="portfolio">
           <h2 className="section-heading">Portfolio section</h2>
           <center>
-            <span style={{color: '#808080'}}>🧁Little blurb, good for a "last updated"</span>
+            <span style={{color: '#808080'}}>Last updated on October 11, 2020</span>
             <Slider
               defaultValue={2}
               min={1}
@@ -31,7 +31,7 @@ class Portfolio extends Component {
                 2: 'Default',
                 3: 'More things',
                 4: 'Lots of things',
-                5: 'Shit List',
+                5: 'Dump',
               }}
               dots
               onChange={v => this.setState({ slider: v })}

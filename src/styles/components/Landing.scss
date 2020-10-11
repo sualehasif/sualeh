@@ -11,10 +11,10 @@
 #home {
   background:
     linear-gradient(
-      rgba(darken($primary, 20%), 0.45),
-      rgba(darken($primary, 20%), 0.45)
+      rgba(darken($primary, 15%), 0.20),
+      rgba(darken($primary, 15%), 0.20)
     ),
-    url("../../background.png");
+    url("../../background.jpg");
   background-position: center;
   background-size: cover;
   opacity: 1;

@@ -31,16 +31,10 @@ const Landing = () => (
         <Col xs={12} md={6} style={{ paddingLeft: 50, paddingRight: 50 }}>
           <h2 className="section-heading">ABOUT ME</h2>
           <hr />
-          <p>
-            Hello, hello hello! I'm Sualeh. 
-            I am a junior at MIT studying computer science, mathematics and theater. 
-            I am broadly interested in computational number theory, machine learning, 
-            performance engineering, arithmetic geometry and algorithms.
+          <p> Hello, hello hello! I'm Sualeh. I am a junior at MIT studying computer science, mathematics and theater. I am broadly interested in computational number theory, machine learning, performance engineering, arithmetic geometry and algorithms.
           </p>
           <p>
-            I love theater and performance art. I am passionate about many vaguely 
-            artisitc things and particularly enjoy shakesepare, lots of classical 
-            literature, and English and Urdu poetry.
+            I love theater and performance art. I am passionate about many vaguely artistic things and particularly enjoy Shakespeare, lots of classical literature, and English and Urdu poetry.
           </p>
 
           <p style={{ fontSize: 12}}>

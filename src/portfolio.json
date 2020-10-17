@@ -1,52 +1,153 @@
-{
-  "experience": [
+{ "experience": [
     {
-      "thing": "Fake Company",
-      "description" : "SQL Monkey",
-      "date": "May 2020 - Present",
-      "toggle": [1, 2, 3, 4, 5],
+      "thing": "IBM Watson ML",
+      "description" : "Machine Learning Intern",
+      "date": "Jun 2019 – Aug 2019",
+      "toggle": [1, 2, 3, 4],
       "points": [
         {
-          "toggle": [1, 2, 3, 4, 5],
-          "content": "ooh ooh aah aah cupcakes"
+          "toggle": [2, 3, 4],
+          "content": "Supervised by Saloni Potdar",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4, 5],
+          "content": "I used TensorFlow to build a language models for language agnostic intent detection, designed to work with Watson Language Assistant."
+        },
+        {
+          "toggle": [3, 4, 5],
+          "content": "The work was based on BERT-multi, USE, FastText."
         }
       ]
     },
     {
-      "thing": "Fake Company2",
-      "description" : "SQL Monkey2",
-      "date": "May 2020 - Cupcakes",
-      "toggle": [1, 2, 3],
+      "thing": "MIT Mathematics",
+      "description" : "Research Assistant",
+      "date": "Jun 2019 – Present",
+      "toggle": [1, 2, 3, 4],
       "points": [
         {
-          "toggle": [4, 5],
-          "content": "ooh ooh aah aah cupcakes"
+          "toggle": [2, 3, 4],
+          "content": "With Dylan Pentland, and Fransesc Fite. Supervised by Andrew Sutherland",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "We found a practical algorithm for computing the L-polynomial of a Picard curve, which runs in O(log^4 p) time."
+        },
+        {
+          "toggle": [3, 4],
+          "content": "This is the first practical result of this type for curves with genus greater than 3."
+        },
+        {
+          "toggle": [3, 4],
+          "content": "This enables the (previously impossible) computation of certain Sato Tate distributions and groups."
+        },
+        {
+          "toggle": [4],
+          "content": "The algorithms are implemented the algorithm in Python using Sage and then a faster implementation in C using the PARI library."
+        }
+      ]
+    },
+    
+    
+    {
+      "thing": "MIT Quest for Intelligence",
+      "description" : "Research Assistant",
+      "date": "Sep 2018 – Jan 2019",
+      "toggle": [1, 2, 3, 4],
+      "points": [
+        {
+          "toggle": [2, 3, 4],
+          "content": "Supervised by Ilker Yildrim",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "I used primate data visual cortex data to build deep neural nets, which achieved high accuracy on standard benchmarks like COCO. "
+        },
+        {
+          "toggle": [3, 4],
+          "content": "Our model was motivated by evolution, and then optimized to achieve a high correlation with primate data. "
+        },
+        {
+          "toggle": [4],
+          "content": "These results were respectable but have since been surpassed."
+        }
+      ]
+    },
+    {
+      "thing": "MIT CSAIL Theory of Computation",
+      "description" : "Research Assistant",
+      "date": "Feb 2019 – May 2019",
+      "toggle": [1, 2, 3, 4],
+      "points": [
+        {
+          "toggle": [2, 3, 4],
+          "content": "With Jason Lynch. Supervised by Erik Demaine.",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "I worked on extending techniques in energy-efficient algorithms (solving computationally intensive problems using vastly less energy consumption) to data structures used in text web searches. I also worked on the theoretical complexity of games and proved a long-standing conjecture."
+        }
+      ]
+    },
+    {
+      "thing": "Pakistan National Math Camp",
+      "description" : "Lead Instructor",
+      "date": "Aug 2017 & Aug 2018",
+      "toggle": [1, 2, 3, 4],
+      "points": [
+        {
+          "toggle": [2, 3, 4],
+          "content": "I designed schedules, lectures, assignments, and selection tests for Pakistan’s 50 top students."
+        },
+        {
+          "toggle": [3, 4],
+          "content": "I handled last-minute logistical problems, tutored, graded, and analyzed performance data."
+        }
+      ]
+    },
+    {
+      "thing": "Nixor Math Circle",
+      "description" : "Founder, President & Lead Instructor",
+      "date": "Sep 2016 – Aug 2018",
+      "toggle": [1, 2, 3, 4],
+      "points": [
+        {
+          "toggle": [2, 3, 4],
+          "content": "I planned and taught biweekly problem solving practice sessions for 12 freshmen and 8 juniors."
+        },
+        {
+          "toggle": [3, 4],
+          "content": "Five of my students made Top 50, three made Top 20, and one made the IMO team alongside me."
         }
       ]
     }
   ],
   "awards": [
     {
-      "thing": "Fake Company",
-      "description" : "SQL Monkey",
-      "date": "May 2020 - Present",
-      "toggle": [1, 2, 3, 4, 5],
+      "thing": "2017 International Math Olympaid",
+      "description" : "Bronze Medal",
+      "date": "July 2017",
+      "toggle": [1, 2, 3, 4],
       "points": [
         {
-          "toggle": [1, 2, 3, 4, 5],
-          "content": "ooh ooh aah aah cupcakes"
+          "toggle": [2, 3, 4],
+          "content": "First in Pakistan"
         }
       ]
     },
     {
-      "thing": "Fake Company2",
-      "description" : "SQL Monkey2",
-      "date": "May 2020 - Cupcakes",
+      "thing": "2018 Asian Pacific Mathematics Olympiad",
+      "description" : "Bronze medal",
+      "date": "March 2018",
       "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [4, 5],
-          "content": "ooh ooh aah aah cupcakes"
+          "toggle": [2, 3, 4],
+          "content": "First in Pakistan"
         }
       ]
     }
@@ -71,7 +172,7 @@
       "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [4, 5],
+          "toggle": [2, 3],
           "content": "ooh ooh aah aah cupcakes"
         }
       ]
@@ -79,26 +180,154 @@
   ],
   "events": [
     {
-      "thing": "Fake Company",
-      "description" : "SQL Monkey",
-      "date": "May 2020 - Present",
-      "toggle": [1, 2, 3, 4, 5],
+      "thing": "ESPR",
+      "description" : "Student",
+      "date": "Aug 2019",
+      "toggle": [2, 3, 4],
       "points": [
         {
-          "toggle": [1, 2, 3, 4, 5],
-          "content": "ooh ooh aah aah cupcakes"
+          "toggle": [2, 3, 4],
+          "content": "'Applied Rationality' camp, 10 days with ~30 people."
         }
       ]
     },
     {
-      "thing": "Fake Company2",
-      "description" : "SQL Monkey2",
-      "date": "May 2020 - Cupcakes",
-      "toggle": [1, 2, 3],
+      "thing": "International Math Olympiads",
+      "description" : "Competitor",
+      "date": "2016-2018",
+      "toggle": [1, 2, 3, 4],
       "points": [
         {
-          "toggle": [4, 5],
-          "content": "ooh ooh aah aah cupcakes"
+          "toggle": [2, 3, 4],
+          "content": "Competed for Pakistan."
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "thing": "Computing L-Polynomials of Picard curves from Cartier-Manin matrices",
+      "description" : "",
+      "date": "2020",
+      "toggle": [1, 2, 3, 4, 5],
+      "points": [
+        {
+          "toggle": [1, 2, 3, 4, 5],
+          "content": "with F. Fite, D. Pentland",
+          "bold": "1"
+        }
+      ]
+    },
+    {
+      "thing": "Tetris is NP-hard even with O(1) Columns",
+      "description" : "",
+      "date": "2019",
+      "toggle": [1, 2, 3, 4, 5],
+      "points": [
+        {
+          "toggle": [1, 2, 3, 4, 5],
+          "content": "with E. D. Demaine, J. Lynch, M. Singhal",
+          "bold": "1"
+        }
+      ]
+    },
+    {
+      "thing": "PSPACE-completeness of Pulling Blocks to Reach a Goal",
+      "description" : "",
+      "date": "2019",
+      "toggle": [1, 2, 3, 4, 5],
+      "points": [
+        {
+          "toggle": [1, 2, 3, 4, 5],
+          "content": "with E. D. Demaine, J. Ani, Y. Diomidov, D. Hendrickson, J. Lynch, S. Scheffler, A. Suhl",
+          "bold": "1"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "thing": "Massachusetts Institute of Technology",
+      "description" : "Class of 2022",
+      "date": "Aug 2018 - Present",
+      "toggle": [1, 2, 3, 4, 5, 6],
+      "points": [
+        {
+          "toggle": [1, 2, 3, 4, 5, 6],
+          "content": "Candidate for S.B. in Computer Science & S.B. in Mathematics",
+          "bold": "1"
+        },
+        {
+          "toggle": [1, 2, 3, 4, 5, 6],
+          "content": "GPA: 5.0"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "Math Coursework:",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "18.785/18.786 - (Graduate) Number Theory  (A+/P)"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "18.783 - Elliptic Curves (A)"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "18.A34 - Putnam Seminar"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "Computer Science Coursework: ",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "6.892 - (Graduate) Algorithmic Lower Bounds (A+)"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "6.867 - (Graduate) Machine Learning (current)"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "6.172 - Perfrmance Engineering of Softwre Systems (current)"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "6.854 - (Graduate) Advanced Algorithms (current)"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "6.035 - Computer Language Engineering (A)"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "6.437 - (Graduate) Inference and Info (P)"
+        }
+      ]
+    },
+    {
+      "thing": "Nixor College",
+      "description" : "Class of 2018",
+      "date": "Aug 2016 - Jun 2018",
+      "toggle": [2, 3, 4, 6],
+      "points": [
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "A levels",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4, 6],
+          "content": "5A*"
+        },
+        {
+          "toggle": [3, 4, 6],
+          "content": "2017 & 2018 Pursuit of Excellence Awards (top 1%) in Further Math, Physics, Chemistry",
+          "__comment__": "add my other awards at Nixor"
         }
       ]
     }

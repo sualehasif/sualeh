@@ -25,13 +25,14 @@ class Portfolio extends Component {
             <Slider
               defaultValue={2}
               min={1}
-              max={5}
+              max={6}
               marks={{
                 1: 'Less things',
                 2: 'Default',
                 3: 'More things',
                 4: 'Lots of things',
-                5: 'Dump',
+                5: 'Publications',
+                6: 'Coursework',
               }}
               dots
               onChange={v => this.setState({ slider: v })}
@@ -41,30 +42,48 @@ class Portfolio extends Component {
             <Row>
               <Col xs={12} md={6} className="item">
                 <PortfolioSection
+                  data={this.state.data.education}
+                  title="Education"
+                  slider={this.state.slider}
+                />
+                {[1, 2, 3, 4].includes(this.state.slider)  && 
+                  <PortfolioSection
+                      data={this.state.data.awards}
+                      title="Awards"
+                      slider={this.state.slider}
+                  />
+                }
+                
+                {[1, 2, 3, 4].includes(this.state.slider)  && 
+                  <PortfolioSection
+                  data={this.state.data.events}
+                  title="Things I've Been To"
+                  slider={this.state.slider}
+                  />
+                }
+              </Col>
+              <Col xs={12} md={6} className="item">
+                {[1, 2, 3, 4].includes(this.state.slider) && 
+                  <PortfolioSection
                   data={this.state.data.experience}
                   title="Employment"
                   slider={this.state.slider}
                 />
-                <PortfolioSection
-                  data={this.state.data.events}
-                  title="Things I've Been To"
+                }
+                {[1, 2, 3, 4, 5].includes(this.state.slider) && 
+                  <PortfolioSection
+                  data={this.state.data.publications}
+                  title="Publications"
                   slider={this.state.slider}
                 />
-              </Col>
-              <Col xs={12} md={6} className="item">
-                <PortfolioSection
+                }
+                {/* {this.state.slider > 1 &&
+                  <PortfolioSection
                   data={this.state.data.hobbies}
                   title="Hobbies"
                   slider={this.state.slider}
-                />
-                // shows dependent on slider
-                {this.state.slider > 2 &&
-                  <PortfolioSection
-                    data={this.state.data.awards}
-                    title="Awards"
-                    slider={this.state.slider}
                   />
-                }
+                } */}
               </Col>
             </Row>
           </div>
@@ -101,18 +120,33 @@ class PortfolioSection extends Component {
             let showItem = item.toggle.indexOf(this.state.slider) !== -1;
             const points = item.points.map((p) => {
               let showPoint = p.toggle.indexOf(this.state.slider) !== -1;
-              return (
-                <CSSTransition
-                  classNames="points"
-                  appear
-                  in={showPoint}
-                  unmountOnExit
-                  mountOnEnter
-                  timeout={{enter: 1500, exit: 300}}
-                >
-                  <li dangerouslySetInnerHTML={{ __html: p.content }} />
-                </CSSTransition>
-              );
+              if (p.bold === "1"){
+                return (
+                  <CSSTransition
+                    classNames="points"
+                    appear
+                    in={showPoint}
+                    unmountOnExit
+                    mountOnEnter
+                    timeout={{enter: 1500, exit: 300}}
+                  >
+                    <li className="points-bold" dangerouslySetInnerHTML={{ __html: p.content }} />
+                  </CSSTransition>
+                );
+              } else {
+                return (
+                  <CSSTransition
+                    classNames="points"
+                    appear
+                    in={showPoint}
+                    unmountOnExit
+                    mountOnEnter
+                    timeout={{enter: 1500, exit: 300}}
+                  >
+                    <li normal='True' dangerouslySetInnerHTML={{ __html: p.content }} />
+                  </CSSTransition>
+                );
+              }
             });
             return (
               <CSSTransition

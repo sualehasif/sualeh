@@ -3,14 +3,17 @@ import { Row, Col } from 'react-bootstrap';
 
 import Github from 'react-icons/lib/fa/github';
 // import { ImPen } from 'react-icons/im';
+// TODO: Fix the icon problems
 import Envelope from 'react-icons/lib/fa/envelope';
 
-import cupcake1 from './img/cupcake.jpg';
-import cupcake2 from './img/cupcake2.jpg';
+import sualeh_1 from './img/sualeh_1.jpg';
+import sualeh_2 from './img/sualeh_2.jpg';
+import sualeh_3 from './img/sualeh_3.jpg';
 
 import Signature from './Signature';
 
-const cupcakes = [cupcake1, cupcake2];
+const pics = [sualeh_2, sualeh_3];
+// const pics = [random];
 
 const Landing = () => (
   <main>
@@ -23,19 +26,24 @@ const Landing = () => (
     <section id="about">
       <Row>
         <Col xs={12} md={5} style={{ paddingTop: 50 }}>
-          <img src={cupcakes[Math.floor(Math.random() * cupcakes.length)]} className="img-responsive img-circle" alt="carol at hackathon" />
+          <img src={pics[Math.floor(Math.random() * pics.length)]} className="img-responsive img-circle" alt="Sualeh at MIT" />
         </Col>
         <Col xs={12} md={6} style={{ paddingLeft: 50, paddingRight: 50 }}>
           <h2 className="section-heading">ABOUT ME</h2>
           <hr />
           <p>
-            Hello, hello hello! I'm Sualeh. I am a junior at MIT studying computer science, mathematics and theater. I am broadly interested in computational number theory, machine learning, performance engineering, arithmetic geometry and algorithms.
+            Hello, hello hello! I'm Sualeh. 
+            I am a junior at MIT studying computer science, mathematics and theater. 
+            I am broadly interested in computational number theory, machine learning, 
+            performance engineering, arithmetic geometry and algorithms.
           </p>
           <p>
-            I love theater and performance art. I am passionate about many vaguely artisitc things and particularly enjoy shakesepare, lots of classical literature, and Englsih and Urdu poetry.
+            I love theater and performance art. I am passionate about many vaguely 
+            artisitc things and particularly enjoy shakesepare, lots of classical 
+            literature, and English and Urdu poetry.
           </p>
 
-          <p style={{ fontSize: 14}}>
+          <p style={{ fontSize: 12}}>
             This site randomizes many elements per load! Thanks to Carol Chen for the theme.
           </p>
         </Col>
@@ -53,7 +61,7 @@ const Landing = () => (
 );
 
 var test_empty = (cstr) => {
-  if (cstr != ""){
+  if (cstr !== ""){
     return(
       <br/>
     )
@@ -63,11 +71,11 @@ var test_empty = (cstr) => {
 const Quote = () => {
   const quotes = [
     {
-      line1: "\"Life’s but a walking shadow, a poor player",
+      line1: '"Life’s but a walking shadow, a poor player',
       line2: 'That struts and frets his hour upon the stage,',
       line3: 'And then is heard no more. It is a tale',
       line4: 'Told by an idiot, full of sound and fury,', 
-      line5: 'Signifying nothing.\"',
+      line5: 'Signifying nothing."',
       author: 'Macbeth',
     },
     {
@@ -79,13 +87,22 @@ const Quote = () => {
       author: 'Lord of the Rings',
     },
     {
-      line1: '\"I am a man of fortune and I must seek my fortune\"',
+      line1: '"I am a man of fortune and I must seek my fortune"',
       line2: '',
       line3: '',
       line4: '', 
       line5: '',
       author: 'Henry Avery',
     },
+    {
+      line1: '"Speak becuase your lips are free"',
+      line2: '(Bol ke lab azad hain tere)',
+      line3: '',
+      line4: '', 
+      line5: '',
+      author: 'Faiz Ahmed Faiz',
+    },
+
   ];
 
   const quote = quotes[Math.floor(Math.random() * quotes.length)];

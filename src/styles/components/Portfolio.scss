@@ -53,7 +53,7 @@
       font-size: 1.15em;
       transition: all .5s ease;
     }
-    li:before {
+    li[normal='True']:before {
       content: "> ";
     }
 
@@ -105,6 +105,10 @@
     color: lighten($primary, 20%);
     transition: all 500ms ease;
     text-decoration: line-through;
+  }
+
+  .points-bold {
+    font-weight: bold;
   }
 
   .points-appear {

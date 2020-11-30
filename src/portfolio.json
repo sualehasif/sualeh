@@ -477,7 +477,7 @@
           "bold": "1"
         },
         {
-          "toggle": [5],
+          "toggle": [3, 5],
           "content": "Augmented Opera study with Parsifal - Production Seminar (21m.711 - A+)"
         },
         {
@@ -485,7 +485,7 @@
           "content": "Physical Improvisation: Scores and Improvisation (21m.622 - current)"
         },
         {
-          "toggle": [5],
+          "toggle": [3, 5],
           "content": "Live Cinema Performance (21m.842 - current)"
         },
         {
@@ -493,7 +493,7 @@
           "content": "Acting with the Camera (21m.624 - A)"
         },
         {
-          "toggle": [5],
+          "toggle": [3, 5],
           "content": "Voice and Speech for the Actor (21m.605 - A)"
         },
         {
@@ -514,7 +514,7 @@
           "content": "Rhetoric (21w.747 - A)"
         },
         {
-          "toggle": [5],
+          "toggle": [3, 5],
           "content": "Negotiation (15.6721 - A)"
         },
         {

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>Carol&#x27;s Blog</title>
-	<subtitle>Carol Chen&#x27;s blog about stuff she does or reads about or observes</subtitle>
+	<title>Sualeh&#x27;s Blog</title>
+	<subtitle>Sualeh&#x27;s blog about stuff he does or reads about or observes</subtitle>
 	<link href="/blog/atom.xml" rel="self" type="application/atom+xml"/>
 	<link href="/blog"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2020-05-12T00:00:00+00:00</updated>
 	<id>/blog/atom.xml</id>
 	<entry xml:lang="en">
-		<title>Sample Article</title>
+		<title>Coming Soon</title>
 		<published>2020-05-12T00:00:00+00:00</published>
 		<updated>2020-05-12T00:00:00+00:00</updated>
 		<link href="/blog/sample/"/>

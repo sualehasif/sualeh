@@ -19,7 +19,7 @@ done = () => {
       <div>
         <div className="triangle" />
         {this.state.typing
-            ? <Typist className="signature" avgTypingDelay={40} onTypingDone={this.done}>
+            ? <Typist className="signature" avgTypingDelay={55} onTypingDone={this.done}>
               <span>Sualeh Asif</span>
               <Typist.Backspace count={11} delay={1000} />
               <span>Math (mostly Number Theory)</span>

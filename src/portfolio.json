@@ -197,7 +197,7 @@
       "points": [
         {
           "toggle": [2, 3],
-          "content": "I developed organization-level strategy and project-management for the team of 50+ volunteers that built a platform for COVID-specific mask awareness in Pakistan. We reached 20 million social media impressions and provided 75k+ masks to people in poverty in Pakistan."
+          "content": "I developed organization-level strategy and project-managed for the team of 50+ volunteers that built a platform for COVID-specific mask awareness in Pakistan. We reached 20 million social media impressions and provided 75k+ masks to people in poverty in Pakistan."
         },
         {
           "toggle": [2, 3],
@@ -206,6 +206,10 @@
         {
           "toggle": [3],
           "content": "We collaborated with the local government, dozens of local NGO's and companies for reaching out at the root-level in Pakistan for awareness."
+        },
+        {
+          "toggle": [3],
+          "content": "The campaign was very well recieved and we were featured across the Pakistani media spectrum. We were published by Dawn and The Nation, Pakistan's top newspapers, as well as ARY and Aaj News, Pakistan's Top media agencies."
         },
         {
           "toggle": [2, 3],
@@ -613,7 +617,7 @@
         },
         {
           "toggle": [3, 5],
-          "content": "I wrote solutions for and graded problem-sets, led weekly office-hours and tried to built good mathematical calculus and problem-solving intuitions in my students."
+          "content": "I wrote solutions and graded problem-sets, led weekly office-hours and tried to built good mathematical and problem-solving intuitions in my students."
         },
         {
           "toggle": [3, 5],

@@ -3,19 +3,19 @@
       "thing": "IBM Watson ML",
       "description" : "Machine Learning Intern",
       "date": "Jun 2019 – Aug 2019",
-      "toggle": [1, 2, 3, 4],
+      "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [2, 3, 4],
+          "toggle": [2, 3],
           "content": "Supervised by Saloni Potdar",
           "bold": "1"
         },
         {
-          "toggle": [2, 3, 4, 5],
+          "toggle": [2, 3],
           "content": "I used TensorFlow to build a language models for language agnostic intent detection, designed to work with Watson Language Assistant."
         },
         {
-          "toggle": [3, 4, 5],
+          "toggle": [3],
           "content": "The work was based on BERT-multi, USE, FastText."
         }
       ]
@@ -24,27 +24,27 @@
       "thing": "MIT Mathematics",
       "description" : "Research Assistant",
       "date": "Jun 2019 – Present",
-      "toggle": [1, 2, 3, 4],
+      "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [2, 3, 4],
+          "toggle": [2, 3],
           "content": "With Dylan Pentland, and Fransesc Fite. Supervised by Andrew Sutherland",
           "bold": "1"
         },
         {
-          "toggle": [2, 3, 4],
-          "content": "We found a practical algorithm for computing the L-polynomial of a Picard curve, which runs in O(log^4 p) time."
+          "toggle": [2, 3],
+          "content": "We found a practical algorithm for computing the L-polynomial of a Picard curve, which runs in O(log^3 p) time."
         },
         {
-          "toggle": [3, 4],
+          "toggle": [3],
           "content": "This is the first practical result of this type for curves with genus greater than 3."
         },
         {
-          "toggle": [3, 4],
+          "toggle": [3],
           "content": "This enables the (previously impossible) computation of certain Sato Tate distributions and groups."
         },
         {
-          "toggle": [4],
+          "toggle": [3],
           "content": "The algorithms are implemented the algorithm in Python using Sage and then a faster implementation in C using the PARI library."
         }
       ]
@@ -55,23 +55,23 @@
       "thing": "MIT Quest for Intelligence",
       "description" : "Research Assistant",
       "date": "Sep 2018 – Jan 2019",
-      "toggle": [1, 2, 3, 4],
+      "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [2, 3, 4],
+          "toggle": [2, 3],
           "content": "Supervised by Ilker Yildrim",
           "bold": "1"
         },
         {
-          "toggle": [2, 3, 4],
+          "toggle": [2, 3],
           "content": "I used primate data visual cortex data to build deep neural nets, which achieved high accuracy on standard benchmarks like COCO. "
         },
         {
-          "toggle": [3, 4],
+          "toggle": [3],
           "content": "Our model was motivated by evolution, and then optimized to achieve a high correlation with primate data. "
         },
         {
-          "toggle": [4],
+          "toggle": [3],
           "content": "These results were respectable but have since been surpassed."
         }
       ]
@@ -80,48 +80,16 @@
       "thing": "MIT CSAIL Theory of Computation",
       "description" : "Research Assistant",
       "date": "Feb 2019 – May 2019",
-      "toggle": [1, 2, 3, 4],
+      "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [2, 3, 4],
+          "toggle": [2, 3],
           "content": "With Jason Lynch. Supervised by Erik Demaine.",
           "bold": "1"
         },
         {
-          "toggle": [2, 3, 4],
+          "toggle": [2, 3],
           "content": "I worked on extending techniques in energy-efficient algorithms (solving computationally intensive problems using vastly less energy consumption) to data structures used in text web searches. I also worked on the theoretical complexity of games and proved a long-standing conjecture."
-        }
-      ]
-    },
-    {
-      "thing": "Pakistan National Math Camp",
-      "description" : "Lead Instructor",
-      "date": "Aug 2017 & Aug 2018",
-      "toggle": [1, 2, 3, 4],
-      "points": [
-        {
-          "toggle": [2, 3, 4],
-          "content": "I designed schedules, lectures, assignments, and selection tests for Pakistan’s 50 top students."
-        },
-        {
-          "toggle": [3, 4],
-          "content": "I handled last-minute logistical problems, tutored, graded, and analyzed performance data."
-        }
-      ]
-    },
-    {
-      "thing": "Nixor Math Circle",
-      "description" : "Founder, President & Lead Instructor",
-      "date": "Sep 2016 – Aug 2018",
-      "toggle": [1, 2, 3, 4],
-      "points": [
-        {
-          "toggle": [2, 3, 4],
-          "content": "I planned and taught biweekly problem solving practice sessions for 12 freshmen and 8 juniors."
-        },
-        {
-          "toggle": [3, 4],
-          "content": "Five of my students made Top 50, three made Top 20, and one made the IMO team alongside me."
         }
       ]
     }
@@ -131,10 +99,10 @@
       "thing": "2017 International Math Olympaid",
       "description" : "Bronze Medal",
       "date": "July 2017",
-      "toggle": [1, 2, 3, 4],
+      "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [2, 3, 4],
+          "toggle": [2, 3],
           "content": "First in Pakistan"
         }
       ]
@@ -146,7 +114,7 @@
       "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [2, 3, 4],
+          "toggle": [2, 3],
           "content": "First in Pakistan"
         }
       ]
@@ -157,10 +125,10 @@
       "thing": "Fake Company",
       "description" : "SQL Monkey",
       "date": "May 2020 - Present",
-      "toggle": [1, 2, 3, 4, 5],
+      "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [1, 2, 3, 4, 5],
+          "toggle": [1, 2, 3],
           "content": "ooh ooh aah aah cupcakes"
         }
       ]
@@ -183,11 +151,15 @@
       "thing": "ESPR",
       "description" : "Student",
       "date": "Aug 2019",
-      "toggle": [2, 3, 4],
+      "toggle": [2, 3],
       "points": [
         {
-          "toggle": [2, 3, 4],
-          "content": "'Applied Rationality' camp, 10 days with ~30 people."
+          "toggle": [2, 3],
+          "content": "'Applied Rationality' camp, 10 days with ~30 people. See <a href='https://espr-camp.org'>this website</a> for more info."
+        },
+        {
+          "toggle": [3],
+          "content": "This was a very impactful experience in many ways and I am throughly grateful for it."
         }
       ]
     },
@@ -195,11 +167,85 @@
       "thing": "International Math Olympiads",
       "description" : "Competitor",
       "date": "2016-2018",
-      "toggle": [1, 2, 3, 4],
+      "toggle": [1, 2, 3],
       "points": [
         {
-          "toggle": [2, 3, 4],
+          "toggle": [2, 3],
           "content": "Competed for Pakistan."
+        }
+      ]
+    },
+    {
+      "thing": "Hackathons",
+      "description" : "Competitor",
+      "date": "2018-",
+      "toggle": [1, 2, 3],
+      "points": [
+        {
+          "toggle": [2, 3],
+          "content": "Competed in HackMIT and various other hackathons. "
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "thing": "Mask Banao",
+      "description" : "Co-founder and Project Manager",
+      "date": "May 2020 - Now",
+      "toggle": [1, 2, 3],
+      "points": [
+        {
+          "toggle": [2, 3],
+          "content": "I developed organization-level strategy and project-management for the team of 50+ volunteers that built a platform for COVID-specific mask awareness in Pakistan. We reached 20 million social media impressions and provided 75k+ masks to people in poverty in Pakistan."
+        },
+        {
+          "toggle": [2, 3],
+          "content": "Visit this <a href='https://maskbanao.com/index.html'>website</a> for our work. I also led the web-development team in the project."
+        },
+        {
+          "toggle": [3],
+          "content": "We collaborated with the local government, dozens of local NGO's and companies for reaching out at the root-level in Pakistan for awareness."
+        },
+        {
+          "toggle": [2, 3],
+          "content": "Our work was archived by the Library of Congress in social awareness efforts for COVID relief."
+        },
+        {
+          "toggle": [3],
+          "content": "This has been one of the most formative experiences of my life. We worked day and night in preparation for Pakistan becoming one of the major hotspots of the pandemic. I am extremely proud and thankful to have worked with our team that worked day and night to make alot of this happen. Our work is still on-going on social media."
+        }
+      ]
+    },
+    {
+      "thing": "Pakistan National Math Camp",
+      "description" : "Lead Instructor",
+      "date": "Aug 2017 & Aug 2018",
+      "toggle": [1, 2, 3],
+      "points": [
+        {
+          "toggle": [2, 3],
+          "content": "I designed schedules, lectures, assignments, and selection tests for Pakistan’s 50 top students."
+        },
+        {
+          "toggle": [3],
+          "content": "I handled last-minute logistical problems, tutored, graded, and analyzed performance data."
+        }
+      ]
+    },
+    {
+      "thing": "Nixor Math Circle",
+      "description" : "Founder, President & Lead Instructor",
+      "date": "Sep 2016 – Aug 2018",
+      "toggle": [1, 2, 3],
+      "points": [
+        {
+          "toggle": [2, 3],
+          "content": "I planned and taught biweekly problem solving practice sessions for 12 freshmen and 8 juniors."
+        },
+        {
+          "toggle": [3],
+          "content": "Five of my students made Top 50, three made Top 20, and one made the IMO team alongside me."
         }
       ]
     }
@@ -209,12 +255,41 @@
       "thing": "Computing L-Polynomials of Picard curves from Cartier-Manin matrices",
       "description" : "",
       "date": "2020",
-      "toggle": [1, 2, 3, 4, 5],
+      "toggle": [1, 2, 3, 4],
       "points": [
         {
-          "toggle": [1, 2, 3, 4, 5],
+          "toggle": [1, 2, 3, 4],
           "content": "with F. Fite, D. Pentland",
           "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "<a href='https://arxiv.org/abs/2010.07247'>ArXiv:2010.07247</a>"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "under submission"
+        }
+      ]
+    },
+    {
+      "thing": "Arithmetic Expression Construction",
+      "description" : "",
+      "date": "2020",
+      "toggle": [1, 2, 3, 4],
+      "points": [
+        {
+          "toggle": [1, 2, 3, 4],
+          "content": "with many friends from Algorithmic Lower Bounds Problems group",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "<a href='https://arxiv.org/abs/2011.11767'>ArXiv:2011.11767</a>"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "2020 International Symposium on Algorithms and Computation"
         }
       ]
     },
@@ -222,12 +297,21 @@
       "thing": "Tetris is NP-hard even with O(1) Columns",
       "description" : "",
       "date": "2019",
-      "toggle": [1, 2, 3, 4, 5],
+      "toggle": [1, 2, 3, 4],
       "points": [
         {
-          "toggle": [1, 2, 3, 4, 5],
-          "content": "with E. D. Demaine, J. Lynch, M. Singhal",
+          "toggle": [1, 2, 3, 4],
+          "content": "with Erik D. Demaine, M. Coulombe, M. L. Demaine, A. Hesterberg, J. Lynch, M. Singhal",
           "bold": "1"
+        },
+
+        {
+          "toggle": [2, 3, 4],
+          "content": "<a href='https://arxiv.org/abs/2009.14336'>ArXiv:2009.14336</a>"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "2019 Japan Conference on Discrete and Computational Geometry, Graphs & Games (JCDCG^3)"
         }
       ]
     },
@@ -235,12 +319,20 @@
       "thing": "PSPACE-completeness of Pulling Blocks to Reach a Goal",
       "description" : "",
       "date": "2019",
-      "toggle": [1, 2, 3, 4, 5],
+      "toggle": [1, 2, 3, 4],
       "points": [
         {
-          "toggle": [1, 2, 3, 4, 5],
-          "content": "with E. D. Demaine, J. Ani, Y. Diomidov, D. Hendrickson, J. Lynch, S. Scheffler, A. Suhl",
+          "toggle": [1, 2, 3, 4],
+          "content": "with Erik D. Demaine, J. Ani, Y. Diomidov, D. Hendrickson, J. Lynch, S. Scheffler, A. Suhl",
           "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "<a href='https://arxiv.org/abs/2006.04337'>ArXiv:2006.04337</a>"
+        },
+        {
+          "toggle": [2, 3, 4],
+          "content": "2019 Japan Conference on Discrete and Computational Geometry, Graphs & Games (JCDCG^3)"
         }
       ]
     }
@@ -250,62 +342,192 @@
       "thing": "Massachusetts Institute of Technology",
       "description" : "Class of 2022",
       "date": "Aug 2018 - Present",
-      "toggle": [1, 2, 3, 4, 5, 6],
+      "toggle": [1, 2, 3, 4, 5],
       "points": [
         {
-          "toggle": [1, 2, 3, 4, 5, 6],
+          "toggle": [1, 2, 3, 4, 5],
           "content": "Candidate for S.B. in Computer Science & S.B. in Mathematics",
           "bold": "1"
         },
         {
-          "toggle": [1, 2, 3, 4, 5, 6],
+          "toggle": [1, 2, 3, 5, 5],
           "content": "GPA: 5.0"
         },
         {
-          "toggle": [2, 3, 4, 6],
+          "toggle": [2, 3, 5],
           "content": "Math Coursework:",
           "bold": "1"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "18.785/18.786 - (Graduate) Number Theory  (A+/P)"
+          "toggle": [2, 3, 5],
+          "content": "Number Theory (Graduate - 18.785/18.786 - A+/P)"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "18.783 - Elliptic Curves (A)"
+          "toggle": [2, 3, 5],
+          "content": "Elliptic Curves (18.783 - A)"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "18.A34 - Putnam Seminar"
+          "toggle": [2, 3, 5],
+          "content": "Putnam Seminar (18.A34)"
         },
         {
-          "toggle": [2, 3, 4, 6],
+          "toggle": [5],
+          "content": "Algebra I (18.701 - A)"
+        },
+        {
+          "toggle": [5],
+          "content": "Algebra II (18.702 - A)"
+        },
+        {
+          "toggle": [5],
+          "content": "Calculus I (18.01 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Calculus II (18.02 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Topics in Combinatorics (18.218 - Listener)"
+        },
+        {
+          "toggle": [5],
+          "content": "Mathematical Statistics (9.521 - Listener)"
+        },
+        {
+          "toggle": [2, 3, 5],
           "content": "Computer Science Coursework: ",
           "bold": "1"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "6.892 - (Graduate) Algorithmic Lower Bounds (A+)"
+          "toggle": [2, 3, 5],
+          "content": "Algorithmic Lower Bounds (Graduate - 6.892 - A+)"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "6.867 - (Graduate) Machine Learning (current)"
+          "toggle": [2, 3, 5],
+          "content": "Machine Learning (Graduate - 6.867 - current)"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "6.172 - Perfrmance Engineering of Softwre Systems (current)"
+          "toggle": [2, 3, 5],
+          "content": "Perfrmance Engineering of Software Systems (6.172 - current)"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "6.854 - (Graduate) Advanced Algorithms (current)"
+          "toggle": [2, 3, 5],
+          "content": "Advanced Algorithms (Graduate - 6.854 - current)"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "6.035 - Computer Language Engineering (A)"
+          "toggle": [2, 3, 5],
+          "content": "Computer Language Engineering / Compilers (6.035 - A)"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "6.437 - (Graduate) Inference and Info (P)"
+          "toggle": [2, 3, 5],
+          "content": "Inference and Info (Graduate - 6.437 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Computer Systems Engineering (6.033 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Algorithms I (6.006 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Computation Structures (6.004 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Fundamentals of Programming (6.009 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Battlecode Programming Competition (6.147 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Deep Learning in Self-Driving Cars (6.S094 - P)"
+        },
+        {
+          "toggle": [3, 5],
+          "content": "Embodied Intelligence - Adv Topics in Artificial Intelligence (Graduate - 6.882 - Listener)"
+        },
+        {
+          "toggle": [5],
+          "content": "Hardware Architecture for Deep Learning (6.888 - Listener)"
+        },
+        {
+          "toggle": [5],
+          "content": "Stastical Learning Theory (6.860 - Listener)"
+        },
+        {
+          "toggle": [5],
+          "content": "Network and Computer Security (6.857 - Listener)"
+        },
+        {
+          "toggle": [5],
+          "content": "Geometric Folding Algorithms (6.849 - Listener)"
+        },
+        {
+          "toggle": [3, 5],
+          "content": "Theater Coursework: ",
+          "bold": "1"
+        },
+        {
+          "toggle": [5],
+          "content": "Augmented Opera study with Parsifal - Production Seminar (21m.711 - A+)"
+        },
+        {
+          "toggle": [5],
+          "content": "Physical Improvisation: Scores and Improvisation (21m.622 - current)"
+        },
+        {
+          "toggle": [5],
+          "content": "Live Cinema Performance (21m.842 - current)"
+        },
+        {
+          "toggle": [5],
+          "content": "Acting with the Camera (21m.624 - A)"
+        },
+        {
+          "toggle": [5],
+          "content": "Voice and Speech for the Actor (21m.605 - A)"
+        },
+        {
+          "toggle": [5],
+          "content": "Live Solo Performance (21m.702 - A)"
+        },
+        {
+          "toggle": [5],
+          "content": "Introduction to Acting (21m.600 - A)"
+        },
+        {
+          "toggle": [3, 5],
+          "content": "Misc Coursework: ",
+          "bold": "1"
+        },
+        {
+          "toggle": [5],
+          "content": "Rhetoric (21w.747 - A)"
+        },
+        {
+          "toggle": [5],
+          "content": "Negotiation (15.6721 - A)"
+        },
+        {
+          "toggle": [5],
+          "content": "Physics I (8.01 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Biology I (7.012 - P)"
+        },
+        {
+          "toggle": [5],
+          "content": "Chemistry I (3.091 - current)"
+        },
+        {
+          "toggle": [5],
+          "content": "Other interesting courses (IAP)"
         }
       ]
     },
@@ -313,21 +535,106 @@
       "thing": "Nixor College",
       "description" : "Class of 2018",
       "date": "Aug 2016 - Jun 2018",
-      "toggle": [2, 3, 4, 6],
+      "toggle": [3, 5],
       "points": [
         {
-          "toggle": [2, 3, 4, 6],
+          "toggle": [3, 5],
           "content": "A levels",
           "bold": "1"
         },
         {
-          "toggle": [2, 3, 4, 6],
-          "content": "5A*"
+          "toggle": [3, 5],
+          "content": "Valedictorian and 5A*"
         },
         {
-          "toggle": [3, 4, 6],
-          "content": "2017 & 2018 Pursuit of Excellence Awards (top 1%) in Further Math, Physics, Chemistry",
+          "toggle": [3, 5],
+          "content": "2017 & 2018 Pursuit of Excellence Awards (Best in class) in Further Math, Math, Physics, Chemistry",
           "__comment__": "add my other awards at Nixor"
+        },
+        {
+          "toggle": [3, 5],
+          "content": "Most Valuable Player (MVP) in the class of 2018.",
+          "__comment__": "add my other awards at Nixor"
+        },
+        {
+          "toggle": [3],
+          "content": "I shared Valedictorian with my good friend, Namrah Aziz.",
+          "__comment__": "add my other awards at Nixor"
+        }
+      ]
+    }
+  ],
+  "theater": [
+    {
+      "thing": "Theater Productions",
+      "description" : "Acting and Producing",
+      "date": "Aug 2018 - Present",
+      "toggle": [2, 3],
+      "points": [
+        {
+          "toggle": [2, 3],
+          "content": "Candidate for a minor in theater",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3],
+          "content": "The Silence -- Directed by Jay Schieb."
+        },
+        {
+          "toggle": [3],
+          "content": "Red Velvet -- The MIT Shakespeare Ensemble."
+        },
+        {
+          "toggle": [3],
+          "content": "Twelfth Night -- The MIT Shakespeare Ensemble."
+        },
+        {
+          "toggle": [3],
+          "content": "The Merry Wives of Windsor -- The MIT Shakespeare Ensemble."
+        }
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "thing": "Teaching Assistant",
+      "description" : "Accelerated Calculus (18.01a/18.02a)",
+      "date": "Fall 2020",
+      "toggle": [1, 2, 3, 5],
+      "points": [
+        {
+          "toggle": [2, 3, 5],
+          "content": "Taught by Professor David Jerison and John Bush",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 5],
+          "content": "I taught a recitation with 22 students for the MIT's accelerated calculus GIR (General Institute Requirement)."
+        },
+        {
+          "toggle": [3, 5],
+          "content": "I wrote solutions for and graded problem-sets, led weekly office-hours and tried to built good mathematical calculus and problem-solving intuitions in my students."
+        },
+        {
+          "toggle": [3, 5],
+          "content": "Covid Teaching has been quite interesting. I found that connecting with students on a personal level and making them feel at home significantly helps with teaching."
+        }
+      ]
+    },
+    {
+      "thing": "Lab Assistant",
+      "description" : "Computation Structures (6.004)",
+      "date": "Fall & Spring 2019, Fall 2020",
+      "toggle": [1, 2, 3, 5],
+      "points": [
+        {
+          "toggle": [2, 3, 5],
+          "content": "Taught by Silvina Hanono Wachman, Daniel Sanchez, Joel Emer and Song Han.",
+          "bold": "1"
+        },
+        {
+          "toggle": [2, 3, 5],
+          "content": "I helped develop and evaluate submitted labs. I also supported students at office hours."
         }
       ]
     }

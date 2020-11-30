@@ -1,5 +1,5 @@
 +++
-title = "Sample Article"
+title = "Coming Soon"
 date = 2020-05-12
 +++
 

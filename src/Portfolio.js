@@ -21,18 +21,17 @@ class Portfolio extends Component {
         <section id="portfolio">
           <h2 className="section-heading">Portfolio section</h2>
           <center>
-            <span style={{color: '#808080'}}>Last updated on October 11, 2020</span>
+            <span style={{color: '#808080'}}>Last updated on November 30, 2020</span>
             <Slider
               defaultValue={2}
               min={1}
-              max={6}
+              max={5}
               marks={{
                 1: 'Less things',
                 2: 'Default',
-                3: 'More things',
-                4: 'Lots of things',
-                5: 'Publications',
-                6: 'Coursework',
+                3: 'Lots of things',
+                4: 'Publications',
+                5: 'Coursework',
               }}
               dots
               onChange={v => this.setState({ slider: v })}
@@ -46,44 +45,60 @@ class Portfolio extends Component {
                   title="Education"
                   slider={this.state.slider}
                 />
-                {[1, 2, 3, 4].includes(this.state.slider)  && 
+                {[1, 2, 3].includes(this.state.slider)  && 
                   <PortfolioSection
                       data={this.state.data.awards}
                       title="Awards"
                       slider={this.state.slider}
                   />
                 }
+                {[1, 2, 3].includes(this.state.slider)  && 
+                  <PortfolioSection
+                      data={this.state.data.leadership}
+                      title="Leadership Roles"
+                      slider={this.state.slider}
+                  />
+                }
                 
-                {[1, 2, 3, 4].includes(this.state.slider)  && 
+                
+                {[1, 2, 3].includes(this.state.slider)  && 
                   <PortfolioSection
                   data={this.state.data.events}
                   title="Things I've Been To"
                   slider={this.state.slider}
                   />
                 }
+
+                {[2, 3].includes(this.state.slider)  && 
+                  <PortfolioSection
+                  data={this.state.data.theater}
+                  title="Theater Productions"
+                  slider={this.state.slider}
+                  />
+                }
               </Col>
               <Col xs={12} md={6} className="item">
-                {[1, 2, 3, 4].includes(this.state.slider) && 
+                {[1, 2, 3].includes(this.state.slider) && 
                   <PortfolioSection
                   data={this.state.data.experience}
                   title="Employment"
                   slider={this.state.slider}
                 />
                 }
-                {[1, 2, 3, 4, 5].includes(this.state.slider) && 
+                {[1, 2, 3, 5].includes(this.state.slider) && 
+                  <PortfolioSection
+                  data={this.state.data.teaching}
+                  title="Teaching"
+                  slider={this.state.slider}
+                />
+                }
+                {[1, 2, 3, 4].includes(this.state.slider) && 
                   <PortfolioSection
                   data={this.state.data.publications}
                   title="Publications"
                   slider={this.state.slider}
                 />
                 }
-                {/* {this.state.slider > 1 &&
-                  <PortfolioSection
-                  data={this.state.data.hobbies}
-                  title="Hobbies"
-                  slider={this.state.slider}
-                  />
-                } */}
               </Col>
             </Row>
           </div>

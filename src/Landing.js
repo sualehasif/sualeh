@@ -12,7 +12,7 @@ import sualeh_3 from './img/sualeh_3.jpg';
 
 import Signature from './Signature';
 
-const pics = [sualeh_2, sualeh_3];
+const pics = [sualeh_3];
 // const pics = [random];
 
 const Landing = () => (
@@ -34,7 +34,7 @@ const Landing = () => (
           <p> Hello, hello hello! I'm Sualeh. I am a junior at MIT studying computer science, mathematics and theater. I am broadly interested in computational number theory, machine learning, performance engineering, arithmetic geometry and algorithms.
           </p>
           <p>
-            I love theater and performance art. I am passionate about many vaguely artistic things and particularly enjoy Shakespeare, lots of classical literature, and English and Urdu poetry.
+            I love theater and performance art. I am passionate advocating for climate change and about many vaguely artistic things and particularly enjoy Shakespeare, lots of classical literature, and English and Urdu poetry. I have an eye out for a brighter, cleaner and a (vague gestures) better future for all of us.
           </p>
 
           <p style={{ fontSize: 12}}>

@@ -2,4 +2,4 @@
 
 This is the code for my website. I try to keep it updated.
 
-Last updated: October 11, 2020
+Last updated: December 1, 2020
